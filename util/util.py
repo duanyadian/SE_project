@@ -1,12 +1,11 @@
+# 导入库
 import os
 import pickle
 import random
 import string
 import time
 from PIL import Image
-
 from lib.ShowapiRequest import ShowapiRequest
-
 
 def get_code(driver, id):
     # 获取验证码图片
