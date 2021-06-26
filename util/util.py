@@ -10,27 +10,35 @@ from lib.ShowapiRequest import ShowapiRequest
 def get_code(driver, id):
     # 获取验证码图片
     t = time.time()
+    # 把截图放到screenshots目录下
     path = os.path.dirname(os.path.dirname(__file__)) + "\\screenshots"
+    # 以当前时间戳命名
     picture_name = path + "\\" + str(t) + ".png"
-
+    # 保存截图
     driver.save_screenshot(picture_name)
-
+    # 根据验证码id获取验证码位置
     ce = driver.find_element_by_id(id)
 
-    left = ce.location["x"]
-    top = ce.location["y"]
-    right = ce.size["width"] + left
-    height = ce.size["height"] + top
-
-    im = Image.open(picture_name)
-    img = im.crop((left,top,right,height))
+    # 定位左顶点坐标,即左和上边界，需要确认下电脑显示的缩放比，默认100%，若不同需乘以缩放比
+    left = ce.location["x"]*1.5
+    top = ce.location["y"]*1.5
+    # 定位右底点坐标，即右和下边界
+    right = (ce.size["width"] + left)*1.5
+    bottom = (ce.size["height"] + top)*1.5
+    # 将值放到元组中(顺序：左上右下)
+    local = (left,top,right,bottom)
+    # 打开图片
+    i = Image.open(picture_name)
+    # 抠图
+    img = i.crop(local)
+    img = img.convert("RGB")
 
     t = time.time()
-
+    # 根据时间戳保存为另一张图片
     picture_name1 = path + "\\" + str(t) + ".png"
     img.save(picture_name1) # 这就是截取到的验证码图片
 
-    r = ShowapiRequest("http://route.showapi.com/184-4", "685820", "2efb2dd481404309b5f624151d93bdc6")
+    r = ShowapiRequest("http://route.showapi.com/184-4", "687110", "a1ebee23ecf84666b941cc66a43a71cb")
     r.addFilePara("image", picture_name1)
     r.addBodyPara("typeId", "34")
     r.addBodyPara("convert_to_jpg", "0")
