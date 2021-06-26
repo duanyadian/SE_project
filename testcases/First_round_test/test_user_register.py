@@ -14,7 +14,7 @@ class TestUserRegister(object):
     # 验证注册时用户名为空
     def test_user_register_username(self):
         username = ""
-        email = "abc@qq.com"
+        email = util.gen_random_str() + "@qq.com"
         pwd = "123456"
         confirmPwd = "123456"
         captcha = "6666"
@@ -79,7 +79,7 @@ class TestUserRegister(object):
     # 验证注册时密码为空
     def test_user_register_pwd(self):
         username = "dyd"
-        email = "abc@qq.com"
+        email = util.gen_random_str() + "@qq.com"
         pwd = ""
         confirmPwd = "123456"
         captcha = "6666"
@@ -114,7 +114,7 @@ class TestUserRegister(object):
     # 验证注册时确认密码为空
     def test_user_register_Confirmpwd(self):
         username = "dyd"
-        email = "abc@qq.com"
+        email = util.gen_random_str() + "@qq.com"
         pwd = "123456"
         confirmPwd = ""
         captcha = "6666"
@@ -150,7 +150,7 @@ class TestUserRegister(object):
     def test_user_register_different(self):
         # 使用util工具类自动生成用户名
         username = "dyd"
-        email = "abc@qq.com"
+        email = util.gen_random_str() + "@qq.com"
         pwd = "123456"
         confirmPwd = "123"
         captcha = "6666"
@@ -184,7 +184,7 @@ class TestUserRegister(object):
     # 测试注册验证码错误
     def test_register_code_error(self):
         username = "admin"
-        email = "123@qq.com"
+        email = util.gen_random_str() + "@qq.com"
         pwd = "123456"
         confirmPwd = "123456"
         captcha = "8888"
@@ -216,44 +216,45 @@ class TestUserRegister(object):
         assert alert.text == expected
         alert.accept()
 
+    # 验证注册成功
+    def test_user_register_OK(self):
+        # 使用util工具类自动生成用户名
+        username = util.gen_random_str()
+        email = util.gen_random_str() + "@qq.com"
+        pwd = "123456"
+        confirmPwd = "123456"
+        # 通过在线api自动识别验证码
+        captcha = ""
+        expected = "注册成功，点击确定进行登录。"
+
+        # 清空输入框，并重新输入用户名
+        self.driver.find_element(By.NAME, "username").clear()
+        self.driver.find_element(By.NAME, "username").send_keys(username)
+        # 清空邮箱，并重新输入邮箱
+        self.driver.find_element(By.NAME, "email").clear()
+        self.driver.find_element(By.NAME, "email").send_keys(email)
+        # 清空输入框，并重新输入密码
+        self.driver.find_element(By.NAME, "pwd").clear()
+        self.driver.find_element(By.NAME, "pwd").send_keys(pwd)
+        # 清空输入框，并重新输入确认密码
+        self.driver.find_element(By.NAME, "confirmPwd").clear()
+        self.driver.find_element(By.NAME, "confirmPwd").send_keys(confirmPwd)
+        # 自动识别验证码
+        captcha = util.get_code(self.driver, "captchaimg")
+        # 清空并重新输入验证码
+        self.driver.find_element(By.NAME, "captcha").clear()
+        self.driver.find_element(By.NAME, "captcha").send_keys(captcha)
+        # 点击登录
+        self.driver.find_element(By.CLASS_NAME, "btn").click()
+
+        # 等待alert弹框出现
+        WebDriverWait(self.driver, 3).until(EC.alert_is_present())
+        alert = self.driver.switch_to.alert
+
+        # 验证是否注册成功
+        assert alert.text == expected
+        alert.accept()
+
+        sleep(1)
         # 关闭浏览器
         self.driver.quit()
-
-    # # 验证注册成功
-    # def test_user_register_OK(self):
-    #     # 使用util工具类自动生成用户名
-    #     username = util.gen_random_str()
-    #     email = "abc@qq.com"
-    #     pwd = "123456"
-    #     confirmPwd = "123456"
-    #     # 通过在线api自动识别验证码
-    #     captcha = ""
-    #     expected = "注册成功，点击确定进行登录。"
-    #
-    #     # 清空输入框，并重新输入用户名
-    #     self.driver.find_element(By.NAME, "username").clear()
-    #     self.driver.find_element(By.NAME, "username").send_keys(username)
-    #     # 清空邮箱，并重新输入邮箱
-    #     self.driver.find_element(By.NAME, "email").send_keys(email)
-    #     # 清空输入框，并重新输入密码
-    #     self.driver.find_element(By.NAME, "pwd").clear()
-    #     self.driver.find_element(By.NAME, "pwd").send_keys(pwd)
-    #     # 清空输入框，并重新输入确认密码
-    #     self.driver.find_element(By.NAME, "confirmPwd").clear()
-    #     self.driver.find_element(By.NAME, "confirmPwd").send_keys(confirmPwd)
-    #     # 自动识别验证码
-    #     captcha = util.get_code(self.driver, "captchaimg")
-    #     # 清空并重新输入验证码
-    #     self.driver.find_element(By.NAME, "captcha").clear()
-    #     self.driver.find_element(By.NAME, "captcha").send_keys(captcha)
-    #     # 点击登录
-    #     self.driver.find_element(By.CLASS_NAME, "btn").click()
-    #
-    #     sleep(2)
-    #     # 等待alert弹框出现
-    #     WebDriverWait(self.driver, 3).until(EC.alert_is_present())
-    #     alert = self.driver.switch_to.alert
-    #     sleep(2)
-    #     # 验证是否注册成功
-    #     assert alert.text == expected
-    #     alert.accept()
