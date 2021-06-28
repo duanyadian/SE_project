@@ -190,4 +190,4 @@ class TestAdminLogin(object):
         assert self.driver.title == expected
 
         # 关闭浏览器
-        self.driver.quit()
+        # self.driver.quit()
