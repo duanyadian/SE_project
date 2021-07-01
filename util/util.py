@@ -38,7 +38,7 @@ def get_code(driver, id):
     picture_name1 = path + "\\" + str(t) + ".png"
     img.save(picture_name1) # 这就是截取到的验证码图片
 
-    r = ShowapiRequest("http://route.showapi.com/184-4", "687110", "a1ebee23ecf84666b941cc66a43a71cb")
+    r = ShowapiRequest("http://route.showapi.com/184-4", "691844", "0de9ca8d0b704975a9afd9caea7b3abb")
     r.addFilePara("image", picture_name1)
     r.addBodyPara("typeId", "34")
     r.addBodyPara("convert_to_jpg", "0")
