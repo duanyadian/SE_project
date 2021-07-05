@@ -3,6 +3,8 @@ from testcases.First_round_test.test_user_login import TestUserLogin
 from testcases.First_round_test.test_admin_login import TestAdminLogin
 from testcases.First_round_test.test_category import TestCategory
 from  testcases.First_round_test.test_article import TestArticle
+from  testcases.First_round_test.test_article_delete import TestArticleDel
+from testcases.Second_round_test.test_goods import TestGoods
 
 if __name__ == '__main__':
     # # 执行test_user_register用例
@@ -39,8 +41,19 @@ if __name__ == '__main__':
     # case3.test_add_SulgEmpoty()
     # case3.test_add_OK()
 
-    # 执行test_article用例，需先登录后台
-    case4 = TestArticle(case2)
-    case4.test_add_article_TitleEmpoty()
-    case4.test_add_article_ContentEmpoty()
-    case4.test_add_article_OK()
+    # # 执行test_article用例，需先登录后台
+    # case4 = TestArticle(case2)
+    # case4.test_add_article_TitleEmpoty()
+    # case4.test_add_article_ContentEmpoty()
+    # case4.test_add_article_OK()
+
+    # # 执行test_article_delete用例，需先登录后台,存在多篇文章
+    # case5 = TestArticleDel(case2) # 调用登录
+    # case5.test_del_one_article()
+    # case5.test_del_all_article()
+
+    # 执行test_goods用例，需先登录
+    case6 = TestGoods(case2)
+    case6.test_add_GoodnameEmpty()
+    case6.test_add_GoodpriceEmpty()
+    case6.test_add_Good_OK()
