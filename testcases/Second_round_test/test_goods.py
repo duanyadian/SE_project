@@ -18,7 +18,7 @@ class TestGoods(object):
         self.login.driver.find_element(By.XPATH,'//*[@id="sidebar-menu"]/li[6]/a/span[1]').click()
         # 点击商品列表，进入商品列表页面
         sleep(1)
-        self.login.driver.find_element(By.XPATH,'//*[@id="sidebar-menu"]/li[6]/ul/li[1]/a').click()
+        self.login.driver.find_element(By.XPATH,"//*[@id='sidebar-menu']/li[6]/ul/li[1]/a").click()
         # 点击【新建】
         self.login.driver.find_element(By.XPATH,'/html/body/div/div/section[3]/div/div/div/div[1]/div/div/a').click()
         # 切入frame框架内
