@@ -57,8 +57,15 @@ class TestCase(object):
         ActionChains(self.driver).move_by_offset(139.6666717529297,263).perform() # 将鼠标移动至坐标处
         sleep(2)
         ActionChains(self.driver).move_to_element_with_offset(ele,523,305).perform() # 将鼠标移动至距离指定位置的距离
+
+    def test_yz(self):
+        self.driver.get("https://member.1688.com/member/join/common_join.htm?spm=a261p.8650511.msteps.2.41e236c34QFw8C&tracelog=change_person_register_20130322")
+        self.driver.find_element(By.XPATH,"//button[text()='同意协议']").click()
+        hk = self.driver.find_element(By.ID,"nc_1_n1z")
+        ActionChains(self.driver).drag_and_drop_by_offset(hk, hk.size["width"], hk.size["hight"]).perform() # 滑动滑块
 if __name__ == '__main__':
     test = TestCase()
     # test.test_mouse()
     # test.test_dragdrop()
-    test.test_keyboard()
+    # test.test_keyboard()
+    test.test_yz()
