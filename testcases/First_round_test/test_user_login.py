@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
+
 class TestUserLogin(object):
     def __init__(self):
         self.driver = webdriver.Chrome()
@@ -16,11 +17,11 @@ class TestUserLogin(object):
         expected = "账号不能为空"
 
         # 输入密码
-        self.driver.find_element(By.NAME,"pwd").send_keys(pwd)
+        self.driver.find_element(By.NAME, "pwd").send_keys(pwd)
         # 点击登录
-        self.driver.find_element(By.CLASS_NAME,"btn").click()
+        self.driver.find_element(By.CLASS_NAME, "btn").click()
         # 等待弹窗提示，3秒后无弹窗则抛出异常
-        WebDriverWait(self.driver,3).until(EC.alert_is_present())
+        WebDriverWait(self.driver, 3).until(EC.alert_is_present())
         alert = self.driver.switch_to.alert
 
         # 验证报错信息是否为”账号不能为空“
@@ -111,6 +112,5 @@ class TestUserLogin(object):
 
         # 验证是否登录成功，根据当前页面标题进行判断
         assert self.driver.title == expected
-
         # 关闭浏览器
         self.driver.quit()
