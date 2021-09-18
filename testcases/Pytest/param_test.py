@@ -31,6 +31,10 @@ class TestParam(object):
     def test_param(self,a,b,expect):
         assert add(a,b) == expect # 调用a+b，判断实际结果是否与期望结果一致
 
+@pytest.mark.parametrize("input,expect",[("1+1",2),("2+2",4)])
+def test_count(input,expect):
+    assert eval(input) ==expect
+
 @pytest.mark.parametrize("x",(1,2,3))
 @pytest.mark.parametrize("y",(4,5,6))
 def test_dkej(x,y):
