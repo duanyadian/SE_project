@@ -1,0 +1,22 @@
+[
+    {
+        "name":"",
+        "pwd":"654321",
+        "expected":"账号不能为空"
+    },
+    {
+        "name":"test",
+        "pwd":"123456",
+        "expected":"用户名不正确。"
+    },
+    {
+        "name":"admin",
+        "pwd":"",
+        "expected":"密码不能为空"
+    },
+    {
+        "name":"admin",
+        "pwd":"654321",
+        "expected":"用户名或密码不正确"
+    }
+]
