@@ -21,7 +21,7 @@ def test_baidu(init_driver):
 
 logging = util.get_logger()
 @allure.title("用例执行失败时截图并记录日志")
-def test_baidu(init_driver):
+def test_jpress(init_driver):
     # driver = webdriver.Chrome()
     init_driver.get("http://192.166.66.22:8080/admin/login")
     init_driver.find_element(By.NAME, "user").send_keys("admin")
