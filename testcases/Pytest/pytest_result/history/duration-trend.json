@@ -1,0 +1,98 @@
+[ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 5469
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 6080
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 374384
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7109
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7109
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7109
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7599
+  }
+}, {
+  "buildOrder" : 30,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/30/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7837
+  }
+}, {
+  "buildOrder" : 28,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 72647
+  }
+}, {
+  "buildOrder" : 19,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/19/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/18/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/16/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 15,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/15/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2592
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7859
+  }
+} ]

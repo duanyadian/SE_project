@@ -1,0 +1,937 @@
+{
+  "fa19075137bfbd7714a7a80ede9d3b12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "ff3db051ae8538e",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/ff3db051ae8538e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836739309,
+        "stop" : 1632836739925,
+        "duration" : 616
+      }
+    }, {
+      "uid" : "b65f4fa640f40782",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/b65f4fa640f40782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836693429,
+        "stop" : 1632836694108,
+        "duration" : 679
+      }
+    }, {
+      "uid" : "210262b5cc63b133",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/210262b5cc63b133",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836613599,
+        "stop" : 1632836614278,
+        "duration" : 679
+      }
+    }, {
+      "uid" : "ca5d9b9faa35309b",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/ca5d9b9faa35309b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836243175,
+        "stop" : 1632836243350,
+        "duration" : 175
+      }
+    }, {
+      "uid" : "12c88ce0f4c58006",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/12c88ce0f4c58006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836243175,
+        "stop" : 1632836243350,
+        "duration" : 175
+      }
+    }, {
+      "uid" : "6df81a84d58f8169",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/6df81a84d58f8169",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836243175,
+        "stop" : 1632836243350,
+        "duration" : 175
+      }
+    }, {
+      "uid" : "d105505da4153a57",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/d105505da4153a57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835736357,
+        "stop" : 1632835737033,
+        "duration" : 676
+      }
+    }, {
+      "uid" : "4a05275f1c004eae",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/4a05275f1c004eae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834846812,
+        "stop" : 1632834847490,
+        "duration" : 678
+      }
+    }, {
+      "uid" : "9ae0a3c84d592a32",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/9ae0a3c84d592a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834692936,
+        "stop" : 1632834693615,
+        "duration" : 679
+      }
+    }, {
+      "uid" : "54b512e6f8b51c93",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/15/allure/#testresult/54b512e6f8b51c93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832994466,
+        "stop" : 1632832995134,
+        "duration" : 668
+      }
+    }, {
+      "uid" : "ec07b8a5e76344f1",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/ec07b8a5e76344f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832681224,
+        "stop" : 1632832681899,
+        "duration" : 675
+      }
+    } ]
+  },
+  "04fd7f71563d2b9c6d17ddc0013226d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 9,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "1aac9cb39df90475",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/1aac9cb39df90475",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632836697557,
+        "stop" : 1632836697557,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a132d00e1c9ec4f0",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/a132d00e1c9ec4f0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632836617738,
+        "stop" : 1632836617738,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "37be0930e0aca148",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/37be0930e0aca148",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632836248351,
+        "stop" : 1632836248351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8482c37b59b2603d",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/8482c37b59b2603d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632836248351,
+        "stop" : 1632836248351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e82584cbfeb4988e",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/e82584cbfeb4988e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632836248351,
+        "stop" : 1632836248351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15f069e428a3f3b",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/15f069e428a3f3b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632835742034,
+        "stop" : 1632835742034,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b1846ceafa79e752",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/b1846ceafa79e752",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632834852693,
+        "stop" : 1632834852693,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "978ce355284cebda",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/978ce355284cebda",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632834626064,
+        "stop" : 1632834626064,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5c9dd65e4f141c80",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/5c9dd65e4f141c80",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632832687120,
+        "stop" : 1632832687120,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bf3c06d97452a589c5bc165b49c1f354" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "78beb224fedcd84f",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/78beb224fedcd84f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836737881,
+        "stop" : 1632836738055,
+        "duration" : 174
+      }
+    }, {
+      "uid" : "530b3e515d125da0",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/530b3e515d125da0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836691477,
+        "stop" : 1632836692157,
+        "duration" : 680
+      }
+    }, {
+      "uid" : "4d1644e7a840c4f6",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/4d1644e7a840c4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836611667,
+        "stop" : 1632836612345,
+        "duration" : 678
+      }
+    }, {
+      "uid" : "d69dfcc448c22e18",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/d69dfcc448c22e18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836241242,
+        "stop" : 1632836241912,
+        "duration" : 670
+      }
+    }, {
+      "uid" : "b3a6f14bb51422f8",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/b3a6f14bb51422f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836241242,
+        "stop" : 1632836241912,
+        "duration" : 670
+      }
+    }, {
+      "uid" : "69cc6ed90635b904",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/69cc6ed90635b904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836241242,
+        "stop" : 1632836241912,
+        "duration" : 670
+      }
+    }, {
+      "uid" : "406e941533552245",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/406e941533552245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835734435,
+        "stop" : 1632835735111,
+        "duration" : 676
+      }
+    }, {
+      "uid" : "2d3867aec1445729",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/2d3867aec1445729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834844856,
+        "stop" : 1632834845539,
+        "duration" : 683
+      }
+    }, {
+      "uid" : "fed144459612d515",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/fed144459612d515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834690993,
+        "stop" : 1632834691677,
+        "duration" : 684
+      }
+    }, {
+      "uid" : "774fb4de31c5a73c",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/15/allure/#testresult/774fb4de31c5a73c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832992542,
+        "stop" : 1632832993218,
+        "duration" : 676
+      }
+    }, {
+      "uid" : "48ce25e9b977ef3",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/48ce25e9b977ef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832679261,
+        "stop" : 1632832679947,
+        "duration" : 686
+      }
+    } ]
+  },
+  "1aeec30a899ca18925a67044a20abc94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "67f2b2e14313507",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/67f2b2e14313507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836740896,
+        "stop" : 1632836743350,
+        "duration" : 2454
+      }
+    }, {
+      "uid" : "9c20d21d92df8537",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/9c20d21d92df8537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836695107,
+        "stop" : 1632836697554,
+        "duration" : 2447
+      }
+    }, {
+      "uid" : "2df5a137dfd6337e",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/2df5a137dfd6337e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836615275,
+        "stop" : 1632836617735,
+        "duration" : 2460
+      }
+    }, {
+      "uid" : "56b86103e113976c",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/56b86103e113976c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836245926,
+        "stop" : 1632836248348,
+        "duration" : 2422
+      }
+    }, {
+      "uid" : "8d250d0f85710101",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/8d250d0f85710101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836245926,
+        "stop" : 1632836248348,
+        "duration" : 2422
+      }
+    }, {
+      "uid" : "90c6533939413dba",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/90c6533939413dba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836245926,
+        "stop" : 1632836248348,
+        "duration" : 2422
+      }
+    }, {
+      "uid" : "44d6fb96d0f863b6",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/44d6fb96d0f863b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835739611,
+        "stop" : 1632835742033,
+        "duration" : 2422
+      }
+    }, {
+      "uid" : "cf4b73617a5df8ba",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/cf4b73617a5df8ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834850261,
+        "stop" : 1632834852690,
+        "duration" : 2429
+      }
+    }, {
+      "uid" : "c34876e2903bdd60",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/c34876e2903bdd60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834623629,
+        "stop" : 1632834626062,
+        "duration" : 2433
+      }
+    }, {
+      "uid" : "ef70284ee230a7f6",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/ef70284ee230a7f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832684692,
+        "stop" : 1632832687118,
+        "duration" : 2426
+      }
+    } ]
+  },
+  "b2bdc69b8a8df7116b8e28c572c6b26f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "ff839994f934bb8b",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/ff839994f934bb8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836738059,
+        "stop" : 1632836738683,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "b6fe38b5b2694642",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/b6fe38b5b2694642",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836692162,
+        "stop" : 1632836692790,
+        "duration" : 628
+      }
+    }, {
+      "uid" : "77a802f7d3de8293",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/77a802f7d3de8293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836612350,
+        "stop" : 1632836612973,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "752839eeef6ec8c3",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/752839eeef6ec8c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836241918,
+        "stop" : 1632836242542,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "c3d9df4b41a02af2",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/c3d9df4b41a02af2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836241918,
+        "stop" : 1632836242542,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "96c632b717718cc2",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/96c632b717718cc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836241918,
+        "stop" : 1632836242542,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "5aca6808c3eb4426",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/5aca6808c3eb4426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835735115,
+        "stop" : 1632835735732,
+        "duration" : 617
+      }
+    }, {
+      "uid" : "2b2311b9418d1403",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/2b2311b9418d1403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834845549,
+        "stop" : 1632834846172,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "704e91363cc00a41",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/704e91363cc00a41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834691683,
+        "stop" : 1632834692300,
+        "duration" : 617
+      }
+    }, {
+      "uid" : "e6a27bac2938e885",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/15/allure/#testresult/e6a27bac2938e885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832993224,
+        "stop" : 1632832993840,
+        "duration" : 616
+      }
+    }, {
+      "uid" : "cf31dd6a46a5d035",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/cf31dd6a46a5d035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832679952,
+        "stop" : 1632832680579,
+        "duration" : 627
+      }
+    } ]
+  },
+  "42551b8a35e19ac74ce72ce8025f17f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "ec5ce7e63f4b398",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/ec5ce7e63f4b398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836739931,
+        "stop" : 1632836740620,
+        "duration" : 689
+      }
+    }, {
+      "uid" : "4d55aa118b901c48",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/4d55aa118b901c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836694113,
+        "stop" : 1632836694832,
+        "duration" : 719
+      }
+    }, {
+      "uid" : "73b1c3696d8e563b",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/73b1c3696d8e563b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836614283,
+        "stop" : 1632836615006,
+        "duration" : 723
+      }
+    }, {
+      "uid" : "8428ae01cf9ab2a9",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/8428ae01cf9ab2a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836244920,
+        "stop" : 1632836245655,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "777d5df73949b228",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/777d5df73949b228",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836244920,
+        "stop" : 1632836245655,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "ec75da46cc5e50c2",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/ec75da46cc5e50c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836244920,
+        "stop" : 1632836245655,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "555418cda0162cab",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/555418cda0162cab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835738638,
+        "stop" : 1632835739353,
+        "duration" : 715
+      }
+    }, {
+      "uid" : "62e013c0f8b2ac61",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/62e013c0f8b2ac61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834849275,
+        "stop" : 1632834850002,
+        "duration" : 727
+      }
+    }, {
+      "uid" : "9f9327fd88f82e45",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/9f9327fd88f82e45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834622662,
+        "stop" : 1632834623381,
+        "duration" : 719
+      }
+    }, {
+      "uid" : "4fc2c51ffd271e90",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/4fc2c51ffd271e90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832683701,
+        "stop" : 1632832684430,
+        "duration" : 729
+      }
+    } ]
+  },
+  "3d93be78d5fc46b8aa4971ac7566d8b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "c43b973eb892d115",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/c43b973eb892d115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836740623,
+        "stop" : 1632836740893,
+        "duration" : 270
+      }
+    }, {
+      "uid" : "283674004c914468",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/283674004c914468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836694836,
+        "stop" : 1632836695105,
+        "duration" : 269
+      }
+    }, {
+      "uid" : "ee945fa982c2b3a9",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/ee945fa982c2b3a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836615009,
+        "stop" : 1632836615273,
+        "duration" : 264
+      }
+    }, {
+      "uid" : "56de8d7db051cd52",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/56de8d7db051cd52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836245659,
+        "stop" : 1632836245924,
+        "duration" : 265
+      }
+    }, {
+      "uid" : "e14cfa2e544fcf39",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/e14cfa2e544fcf39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836245659,
+        "stop" : 1632836245924,
+        "duration" : 265
+      }
+    }, {
+      "uid" : "4fa946a0a2d24747",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/4fa946a0a2d24747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836245659,
+        "stop" : 1632836245924,
+        "duration" : 265
+      }
+    }, {
+      "uid" : "a131350d5f893da2",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/a131350d5f893da2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835739356,
+        "stop" : 1632835739609,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "85fd412a1463a002",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/85fd412a1463a002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834850006,
+        "stop" : 1632834850259,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "b407753f2e44648c",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/b407753f2e44648c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834623384,
+        "stop" : 1632834623628,
+        "duration" : 244
+      }
+    }, {
+      "uid" : "3abca54bb931e0a2",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/3abca54bb931e0a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832684433,
+        "stop" : 1632832684689,
+        "duration" : 256
+      }
+    } ]
+  },
+  "39401f7995375f9a2acb8ecdb4a427d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "9a1968d840e6501b",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/9a1968d840e6501b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632836243354,
+        "stop" : 1632836244784,
+        "duration" : 1430
+      }
+    }, {
+      "uid" : "39de40fb336cb202",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/39de40fb336cb202",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632836243354,
+        "stop" : 1632836244784,
+        "duration" : 1430
+      }
+    }, {
+      "uid" : "5ccd6c4e109db255",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/5ccd6c4e109db255",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632836243354,
+        "stop" : 1632836244784,
+        "duration" : 1430
+      }
+    }, {
+      "uid" : "3f59804022de2b2b",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/3f59804022de2b2b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632836243354,
+        "stop" : 1632836244784,
+        "duration" : 1430
+      }
+    }, {
+      "uid" : "d5f13990cd665f35",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/d5f13990cd665f35",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632835737038,
+        "stop" : 1632835738499,
+        "duration" : 1461
+      }
+    }, {
+      "uid" : "440576037175afcb",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/440576037175afcb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632834847494,
+        "stop" : 1632834849138,
+        "duration" : 1644
+      }
+    }, {
+      "uid" : "51069ccc8ed42ca8",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/51069ccc8ed42ca8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632834620968,
+        "stop" : 1632834622513,
+        "duration" : 1545
+      }
+    }, {
+      "uid" : "ab9b96ed094b15f4",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/ab9b96ed094b15f4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632832681907,
+        "stop" : 1632832683558,
+        "duration" : 1651
+      }
+    } ]
+  },
+  "efc5ddcd18063079b42dbf3ccbbcca52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "37ee88b8643e2336",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/37ee88b8643e2336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836738688,
+        "stop" : 1632836739305,
+        "duration" : 617
+      }
+    }, {
+      "uid" : "4437d1c1dbfac6e2",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/4437d1c1dbfac6e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836692802,
+        "stop" : 1632836693424,
+        "duration" : 622
+      }
+    }, {
+      "uid" : "7c6a5ef4a6df3e3a",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/7c6a5ef4a6df3e3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836612978,
+        "stop" : 1632836613594,
+        "duration" : 616
+      }
+    }, {
+      "uid" : "b3b6e02fd8426861",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/4/allure/#testresult/b3b6e02fd8426861",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836242547,
+        "stop" : 1632836243170,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "cde01078271dd5b3",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/3/allure/#testresult/cde01078271dd5b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836242547,
+        "stop" : 1632836243170,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "9ece0c9c5e6b2d1d",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/2/allure/#testresult/9ece0c9c5e6b2d1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632836242547,
+        "stop" : 1632836243170,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "b55034a526e2b931",
+      "reportUrl" : "http://localhost:8080/job/Pytest_Allure/1/allure/#testresult/b55034a526e2b931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632835735737,
+        "stop" : 1632835736353,
+        "duration" : 616
+      }
+    }, {
+      "uid" : "708df221e366b2dc",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/29/allure/#testresult/708df221e366b2dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834846175,
+        "stop" : 1632834846807,
+        "duration" : 632
+      }
+    }, {
+      "uid" : "a7fe4bcac8176c53",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/28/allure/#testresult/a7fe4bcac8176c53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632834692305,
+        "stop" : 1632834692932,
+        "duration" : 627
+      }
+    }, {
+      "uid" : "fc9e8d882d44ff4e",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/15/allure/#testresult/fc9e8d882d44ff4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832993844,
+        "stop" : 1632832994462,
+        "duration" : 618
+      }
+    }, {
+      "uid" : "ac29f3fbb16e2373",
+      "reportUrl" : "http://localhost:8080/job/Allure-Jenkins/13/allure/#testresult/ac29f3fbb16e2373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632832680590,
+        "stop" : 1632832681219,
+        "duration" : 629
+      }
+    } ]
+  }
+}

@@ -1,0 +1,12 @@
+---
+name: ""
+pwd: "123456"
+expected: "账号不能为空"
+---
+name: "admin"
+pwd: ""
+expected: "密码不能为空"
+---
+name: "admin"
+pwd: "654321"
+expected: "用户名或密码不正确"

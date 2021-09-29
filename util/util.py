@@ -66,3 +66,24 @@ def load_cookie(driver,path):
         cookies = pickle.load(cookiefile)
         for cookie in cookies:
             driver.add_cookie(cookie)
+
+
+# 将日志封装成一个类，方便直接调用
+def get_logger():
+    import logging.handlers
+    import datetime
+
+    logger = logging.getLogger("mylogger")
+    logger.setLevel(logging.DEBUG)
+
+    rf_handler = logging.handlers.TimedRotatingFileHandler("all_logging.log", when="midnight", interval=1,
+                                                           backupCount=7, atTime=datetime.time(0, 0, 0, 0))
+    rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
+    f_handler = logging.FileHandler("error.log")
+    f_handler.setLevel(logging.ERROR)
+    f_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(message)s"))
+
+    logger.addHandler(rf_handler)
+    logger.addHandler(f_handler)
+    return logger

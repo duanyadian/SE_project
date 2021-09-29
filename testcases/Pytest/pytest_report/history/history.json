@@ -1,0 +1,22 @@
+{
+  "41104832527730500d9412dd9ecefb40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c194ba61db5f340",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: 验证码不正确，请重新输入\nMessage: unexpected alert open: {Alert text : 验证码不正确，请重新输入}\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632815636914,
+        "stop" : 1632815638245,
+        "duration" : 1331
+      }
+    } ]
+  }
+}

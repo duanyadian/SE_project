@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.Pytest",
+    "children" : [ {
+      "name" : "testBaidu",
+      "children" : [ {
+        "name" : "test_baidu",
+        "uid" : "8c194ba61db5f340",
+        "parentUid" : "f8e0d80104eb76b4fb88f610c42e3c80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632815636914,
+          "stop" : 1632815638245,
+          "duration" : 1331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8e0d80104eb76b4fb88f610c42e3c80"
+    } ],
+    "uid" : "f9d586d1c47b907efa40f2e3258c3e49"
+  } ]
+}

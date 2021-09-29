@@ -1,0 +1,760 @@
+2021-09-27 23:35:59,468 - ERROR - test_Jpress.py[:118] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 116, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-27 23:35:59,468 - ERROR - test_Jpress.py[:118] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 116, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:46:27,232 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+2021-09-28 14:46:27,232 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+2021-09-28 14:48:40,380 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:48:40,380 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:52:06,381 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:52:06,381 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:54:26,326 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:54:26,326 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:55:18,562 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:55:18,562 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:58:07,301 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:58:07,301 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:58:32,528 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 14:58:32,528 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:03:51,140 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:03:51,140 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:06:01,259 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:06:01,259 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:06:58,143 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:06:58,143 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:12:37,929 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:12:37,929 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:12:37,929 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:12:39,684 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+NoneType: None
+2021-09-28 15:12:39,684 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+NoneType: None
+2021-09-28 15:12:39,684 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+NoneType: None
+2021-09-28 15:21:59,941 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:21:59,941 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:21:59,941 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:23:37,184 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:23:37,184 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:23:37,184 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:23:38,566 - ERROR - test_Jpress.py[:150] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:23:38,566 - ERROR - test_Jpress.py[:150] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:23:38,566 - ERROR - test_Jpress.py[:150] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:25:55,387 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:25:55,387 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:25:55,387 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:25:57,249 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:25:57,249 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:25:57,249 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:27:13,277 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:27:13,277 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:27:13,277 - ERROR - test_Jpress.py[:122] - 报错信息:报错啦！页面无法访问！
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 118, in test_list
+    assert self.driver.title == expected
+AssertionError: assert '小不典-Blog' == '小白典-Blog'
+  - 小白典-Blog
+  ?  ^
+  + 小不典-Blog
+  ?  ^
+2021-09-28 15:27:15,052 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:27:15,052 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:27:15,052 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:28:41,514 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:28:41,514 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:28:41,514 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:30:40,536 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:30:40,536 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:30:40,536 - ERROR - test_Jpress.py[:152] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 148, in test_baidu
+    driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:37:29,952 - ERROR - test_Jpress.py[:139] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 135, in test_baidu
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:37:29,952 - ERROR - test_Jpress.py[:139] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 135, in test_baidu
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 15:53:32,941 - ERROR - test_Jpress.py[:65] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 61, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:09:31,155 - ERROR - test_Jpress.py[:65] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 61, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:17:54,030 - ERROR - test_Jpress.py[:65] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 61, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:37:22,276 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:38:03,554 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:42:18,212 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:49:45,718 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\code\selenium\se_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 20:55:50,413 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:01:27,029 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:10:22,510 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:14:09,134 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:26:20,703 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:27:17,121 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:28:08,052 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:28:58,496 - ERROR - test_Jpress.py[:66] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 62, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
+2021-09-28 21:37:24,781 - ERROR - test_Jpress.py[:67] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 63, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "f:\jetbrains\pycharm\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+

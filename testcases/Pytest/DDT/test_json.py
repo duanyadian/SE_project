@@ -13,11 +13,13 @@ def get_data():
             lst.append(tuple(i.values()))   #将数据以元组形式添加到lst中
     return lst  # 返回lst
 
+
 class TestUser(object):
     def setup_class(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.get("http://192.166.66.22:8080/user/login")
+        print(get_data())
 
     @pytest.mark.parametrize("username,pwd,expected",get_data())    # 调用json数据
     def test_user_login_Error(self,username,pwd,expected):
@@ -39,4 +41,3 @@ class TestUser(object):
         # 验证报错信息是否正确
         assert alert.text == expected
         alert.accept()
-        self.driver.quit()

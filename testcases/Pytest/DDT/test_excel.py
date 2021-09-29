@@ -40,5 +40,9 @@ class TestUser(object):
         assert alert.text == expected
         alert.accept()
 
+@pytest.mark.parametrize("value",get_data())    # 调用excel数据
+def test_read(value):
+    print(value)
+
 if __name__ == '__main__':
     pytest.main(["-vs","test_excel.py"])
