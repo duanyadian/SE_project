@@ -1,5 +1,130 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "DESKTOP-E28U2SJ",
+    "children" : [ {
+      "name" : "26512-MainThread",
+      "children" : [ {
+        "name" : "test_user_login_Error[-654321-账号不能为空]",
+        "uid" : "17bd4ee30a9ffa4e",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980175924,
+          "stop" : 1632980175924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'账号不能为空'", "'654321'", "''" ]
+      }, {
+        "name" : "test_user_login_Error[admin-654321-用户名或密码不正确]",
+        "uid" : "976f9455062a0818",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478406,
+          "stop" : 1632980478406,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名或密码不正确'", "'654321'", "'admin'" ]
+      }, {
+        "name" : "test_user_login_Error[admin--密码不能为空]",
+        "uid" : "5c1dfffdaca0b2c2",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478364,
+          "stop" : 1632980478364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码不能为空'", "''", "'admin'" ]
+      }, {
+        "name" : "查看博客详情",
+        "uid" : "e7358366bf3f8e8",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1632980478668,
+          "stop" : 1632980478668,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看文章详情",
+        "uid" : "7b4b10aff89d9181",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478619,
+          "stop" : 1632980478619,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看文章列表",
+        "uid" : "5baab49042d1d62b",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478571,
+          "stop" : 1632980478571,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_login_Error[test-123456-用户名不正确。]",
+        "uid" : "78031748c0386b90",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478315,
+          "stop" : 1632980478315,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名不正确。'", "'123456'", "'test'" ]
+      }, {
+        "name" : "test_user_login_OK[admin-123456-用户中心]",
+        "uid" : "b0d0e431e87e5d09",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478523,
+          "stop" : 1632980478523,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户中心'", "'123456'", "'admin'" ]
+      }, {
+        "name" : "后台管理平台登录失败",
+        "uid" : "df75810564fc2ab3",
+        "parentUid" : "9e8439315946b0bb2f7ea995fa61ef4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478471,
+          "stop" : 1632980478471,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e8439315946b0bb2f7ea995fa61ef4f"
+    } ],
+    "uid" : "90c24560ba7b2abbe9a58873a6bb2427"
+  } ]
 }

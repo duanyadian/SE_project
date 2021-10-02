@@ -34,4 +34,3 @@ def test_jpress(init_driver):
     alert = init_driver.switch_to.alert
     assert alert.text == "登录失败"
 
-

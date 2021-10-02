@@ -1,10 +1,10 @@
 [ {
   "name" : "Jenkins",
   "type" : "jenkins",
-  "url" : "http://localhost:8080/",
-  "buildOrder" : 8,
-  "buildName" : "Pytest_Allure #8",
-  "buildUrl" : "http://localhost:8080/job/Pytest_Allure/8/",
+  "url" : "http://192.166.66.22:8080/",
+  "buildOrder" : 29,
+  "buildName" : "Pytest_Allure #29",
+  "buildUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/29/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/Pytest_Allure/8/allure"
+  "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/29/allure"
 } ]

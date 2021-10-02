@@ -1,4 +1,15 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "f9d586d1c47b907efa40f2e3258c3e49",
+    "name" : "testcases.Pytest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
 }

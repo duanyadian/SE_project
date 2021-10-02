@@ -1,5 +1,146 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Jpress后端测试",
+    "children" : [ {
+      "name" : "这是登录失败的测试用例",
+      "children" : [ {
+        "name" : "test_user_login_Error[-654321-账号不能为空]",
+        "uid" : "17bd4ee30a9ffa4e",
+        "parentUid" : "98f4ee94fe2aa01e508a1391b0f6e988",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980175924,
+          "stop" : 1632980175924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'账号不能为空'", "'654321'", "''" ]
+      }, {
+        "name" : "test_user_login_Error[test-123456-用户名不正确。]",
+        "uid" : "78031748c0386b90",
+        "parentUid" : "98f4ee94fe2aa01e508a1391b0f6e988",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478315,
+          "stop" : 1632980478315,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名不正确。'", "'123456'", "'test'" ]
+      }, {
+        "name" : "test_user_login_Error[admin--密码不能为空]",
+        "uid" : "5c1dfffdaca0b2c2",
+        "parentUid" : "98f4ee94fe2aa01e508a1391b0f6e988",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478364,
+          "stop" : 1632980478364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码不能为空'", "''", "'admin'" ]
+      }, {
+        "name" : "test_user_login_Error[admin-654321-用户名或密码不正确]",
+        "uid" : "976f9455062a0818",
+        "parentUid" : "98f4ee94fe2aa01e508a1391b0f6e988",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478406,
+          "stop" : 1632980478406,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名或密码不正确'", "'654321'", "'admin'" ]
+      } ],
+      "uid" : "98f4ee94fe2aa01e508a1391b0f6e988"
+    }, {
+      "name" : "后台管理平台登录",
+      "children" : [ {
+        "name" : "后台管理平台登录失败",
+        "uid" : "df75810564fc2ab3",
+        "parentUid" : "cd3c68886c08224caef0a641b3a4d21a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478471,
+          "stop" : 1632980478471,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd3c68886c08224caef0a641b3a4d21a"
+    }, {
+      "name" : "这是登录成功用例",
+      "children" : [ {
+        "name" : "test_user_login_OK[admin-123456-用户中心]",
+        "uid" : "b0d0e431e87e5d09",
+        "parentUid" : "ee332fb7e992f4f820d9a64ba611a54a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478523,
+          "stop" : 1632980478523,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户中心'", "'123456'", "'admin'" ]
+      } ],
+      "uid" : "ee332fb7e992f4f820d9a64ba611a54a"
+    }, {
+      "name" : "文章管理测试用例",
+      "children" : [ {
+        "name" : "查看文章列表",
+        "uid" : "5baab49042d1d62b",
+        "parentUid" : "9a54907ef7c6dfca3045407cd70f4e7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478571,
+          "stop" : 1632980478571,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看文章详情",
+        "uid" : "7b4b10aff89d9181",
+        "parentUid" : "9a54907ef7c6dfca3045407cd70f4e7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632980478619,
+          "stop" : 1632980478619,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a54907ef7c6dfca3045407cd70f4e7f"
+    } ],
+    "uid" : "b4038f84cfa0802f7017f6d3a24bf2d9"
+  }, {
+    "name" : "Jpress前端测试",
+    "children" : [ {
+      "name" : "查看博客详情",
+      "uid" : "e7358366bf3f8e8",
+      "parentUid" : "dd42fa6c28a9fd44f37325be9908caf7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1632980478668,
+        "stop" : 1632980478668,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dd42fa6c28a9fd44f37325be9908caf7"
+  } ]
 }

@@ -1,14 +1,91 @@
 {
+  "1527e740aad860c3df6669cf71616838" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75752ddd252ab31d",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/21/allure/#testresult/75752ddd252ab31d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn错误的登录按钮元素\"}\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632978062971,
+        "stop" : 1632978063220,
+        "duration" : 249
+      }
+    } ]
+  },
   "fa19075137bfbd7714a7a80ede9d3b12" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 11
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "654ea80b83c387a9",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/654ea80b83c387a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979885905,
+        "stop" : 1632979886603,
+        "duration" : 698
+      }
+    }, {
+      "uid" : "91fc64a276f4f2b9",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/91fc64a276f4f2b9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558246,
+        "stop" : 1632979558246,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c68d987f8b9c82fd",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/c68d987f8b9c82fd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196567,
+        "stop" : 1632979196567,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7804b08f03a3c28a",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/16/allure/#testresult/7804b08f03a3c28a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977417185,
+        "stop" : 1632977417784,
+        "duration" : 599
+      }
+    }, {
+      "uid" : "6f5aa907ca225da1",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/13/allure/#testresult/6f5aa907ca225da1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977070906,
+        "stop" : 1632977071514,
+        "duration" : 608
+      }
+    }, {
+      "uid" : "588b55012c4aadb7",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/588b55012c4aadb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976919835,
+        "stop" : 1632976920488,
+        "duration" : 653
+      }
+    }, {
       "uid" : "ff3db051ae8538e",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/ff3db051ae8538e",
       "status" : "passed",
@@ -113,12 +190,52 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ad7f2979ce1e9a08",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/ad7f2979ce1e9a08",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632979895271,
+        "stop" : 1632979895271,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6cd296fa4918624b",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/6cd296fa4918624b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632979558490,
+        "stop" : 1632979558490,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a20ee5b41dd2861d",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/a20ee5b41dd2861d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632979196820,
+        "stop" : 1632979196820,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5071a0ae721a3619",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/5071a0ae721a3619",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 刻意跳过此用例",
+      "time" : {
+        "start" : 1632976927409,
+        "stop" : 1632976927409,
+        "duration" : 0
+      }
+    }, {
       "uid" : "1aac9cb39df90475",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/6/allure/#testresult/1aac9cb39df90475",
       "status" : "skipped",
@@ -213,13 +330,69 @@
   "bf3c06d97452a589c5bc165b49c1f354" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 11
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "1471582e6a4a8922",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/1471582e6a4a8922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979883596,
+        "stop" : 1632979884427,
+        "duration" : 831
+      }
+    }, {
+      "uid" : "e7cd5579c18f4b9b",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/e7cd5579c18f4b9b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979255579,
+        "stop" : 1632979255579,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7caad85e9d9ccca3",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/7caad85e9d9ccca3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632978894077,
+        "stop" : 1632978894077,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f38ccd610bc65a27",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/16/allure/#testresult/f38ccd610bc65a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977415312,
+        "stop" : 1632977415970,
+        "duration" : 658
+      }
+    }, {
+      "uid" : "1bda3bfd7fd52414",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/13/allure/#testresult/1bda3bfd7fd52414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977069029,
+        "stop" : 1632977069693,
+        "duration" : 664
+      }
+    }, {
+      "uid" : "7c47fdb66fc3b60c",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/7c47fdb66fc3b60c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976917670,
+        "stop" : 1632976918495,
+        "duration" : 825
+      }
+    }, {
       "uid" : "78beb224fedcd84f",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/78beb224fedcd84f",
       "status" : "passed",
@@ -323,13 +496,51 @@
   "1aeec30a899ca18925a67044a20abc94" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 10
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "bfc6bbd721b1de9d",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/bfc6bbd721b1de9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979891605,
+        "stop" : 1632979895266,
+        "duration" : 3661
+      }
+    }, {
+      "uid" : "90e34293fe3cf7ef",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/90e34293fe3cf7ef",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558441,
+        "stop" : 1632979558441,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1651d0c3ae8ad6d",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/e1651d0c3ae8ad6d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196770,
+        "stop" : 1632979196770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ef6e2af8c547333",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/9ef6e2af8c547333",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976924011,
+        "stop" : 1632976927406,
+        "duration" : 3395
+      }
+    }, {
       "uid" : "67f2b2e14313507",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/67f2b2e14313507",
       "status" : "passed",
@@ -421,16 +632,93 @@
       }
     } ]
   },
+  "41104832527730500d9412dd9ecefb40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b7a052e5940c2e6",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/21/allure/#testresult/3b7a052e5940c2e6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_RESET\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632978062523,
+        "stop" : 1632978062863,
+        "duration" : 340
+      }
+    } ]
+  },
   "b2bdc69b8a8df7116b8e28c572c6b26f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 11
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "da6651f501dfdd1b",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/da6651f501dfdd1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979884435,
+        "stop" : 1632979885147,
+        "duration" : 712
+      }
+    }, {
+      "uid" : "9e4a3b0720bb9c3f",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/9e4a3b0720bb9c3f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558153,
+        "stop" : 1632979558153,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db45b20c6beb016f",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/db45b20c6beb016f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196470,
+        "stop" : 1632979196470,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ed2c642659232f9b",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/16/allure/#testresult/ed2c642659232f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977415974,
+        "stop" : 1632977416579,
+        "duration" : 605
+      }
+    }, {
+      "uid" : "7c1610d4a3694f88",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/13/allure/#testresult/7c1610d4a3694f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977069698,
+        "stop" : 1632977070296,
+        "duration" : 598
+      }
+    }, {
+      "uid" : "fc53983b1b690612",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/fc53983b1b690612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976918505,
+        "stop" : 1632976919175,
+        "duration" : 670
+      }
+    }, {
       "uid" : "ff839994f934bb8b",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/ff839994f934bb8b",
       "status" : "passed",
@@ -534,13 +822,51 @@
   "42551b8a35e19ac74ce72ce8025f17f7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 10
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "6877881d41009b16",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/6877881d41009b16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979890285,
+        "stop" : 1632979891008,
+        "duration" : 723
+      }
+    }, {
+      "uid" : "5aa2ab6d61330fe6",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/5aa2ab6d61330fe6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558344,
+        "stop" : 1632979558344,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a50869f06bb79a",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/2a50869f06bb79a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196665,
+        "stop" : 1632979196665,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b54531ad2fda021c",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/b54531ad2fda021c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976923073,
+        "stop" : 1632976923717,
+        "duration" : 644
+      }
+    }, {
       "uid" : "ec5ce7e63f4b398",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/ec5ce7e63f4b398",
       "status" : "passed",
@@ -635,13 +961,51 @@
   "3d93be78d5fc46b8aa4971ac7566d8b4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 10
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5336a81b3a3542f7",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/5336a81b3a3542f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979891020,
+        "stop" : 1632979891598,
+        "duration" : 578
+      }
+    }, {
+      "uid" : "c9772fc98034d32b",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/c9772fc98034d32b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558391,
+        "stop" : 1632979558391,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6af91e048ef681a5",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/6af91e048ef681a5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196717,
+        "stop" : 1632979196717,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ecea873e51e0c3b9",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/ecea873e51e0c3b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976923722,
+        "stop" : 1632976924006,
+        "duration" : 284
+      }
+    }, {
       "uid" : "c43b973eb892d115",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/c43b973eb892d115",
       "status" : "passed",
@@ -736,13 +1100,53 @@
   "39401f7995375f9a2acb8ecdb4a427d4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 8
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "1927fa1be8f3fe9f",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/1927fa1be8f3fe9f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979886611,
+        "stop" : 1632979889758,
+        "duration" : 3147
+      }
+    }, {
+      "uid" : "3ded0d365ec95f5c",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/3ded0d365ec95f5c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558296,
+        "stop" : 1632979558296,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "62b810d1e60edef6",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/62b810d1e60edef6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196614,
+        "stop" : 1632979196614,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e39d162a87e2a769",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/e39d162a87e2a769",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: missing or invalid 'type'\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632976920494,
+        "stop" : 1632976922729,
+        "duration" : 2235
+      }
+    }, {
       "uid" : "9a1968d840e6501b",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/5/allure/#testresult/9a1968d840e6501b",
       "status" : "broken",
@@ -827,13 +1231,69 @@
   "efc5ddcd18063079b42dbf3ccbbcca52" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 11
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "36a54a1c504d978f",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/26/allure/#testresult/36a54a1c504d978f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632979885157,
+        "stop" : 1632979885897,
+        "duration" : 740
+      }
+    }, {
+      "uid" : "2bcda33b21a5e628",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/24/allure/#testresult/2bcda33b21a5e628",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979558202,
+        "stop" : 1632979558202,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "18a2280d07c40b25",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/23/allure/#testresult/18a2280d07c40b25",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1632979196520,
+        "stop" : 1632979196520,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ef68aaa2380e3d32",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/16/allure/#testresult/ef68aaa2380e3d32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977416582,
+        "stop" : 1632977417181,
+        "duration" : 599
+      }
+    }, {
+      "uid" : "e0cf221afb44c590",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/13/allure/#testresult/e0cf221afb44c590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632977070302,
+        "stop" : 1632977070903,
+        "duration" : 601
+      }
+    }, {
+      "uid" : "83aac3eeb3d50472",
+      "reportUrl" : "http://192.166.66.22:8080/job/Pytest_Allure/11/allure/#testresult/83aac3eeb3d50472",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632976919180,
+        "stop" : 1632976919829,
+        "duration" : 649
+      }
+    }, {
       "uid" : "37ee88b8643e2336",
       "reportUrl" : "http://localhost:8080/job/Pytest_Allure/7/allure/#testresult/37ee88b8643e2336",
       "status" : "passed",

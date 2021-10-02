@@ -1,1 +1,91 @@
-[ ]
+[ {
+  "uid" : "b0d0e431e87e5d09",
+  "name" : "test_user_login_OK[admin-123456-用户中心]",
+  "time" : {
+    "start" : 1632980478523,
+    "stop" : 1632980478523,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "5baab49042d1d62b",
+  "name" : "查看文章列表",
+  "time" : {
+    "start" : 1632980478571,
+    "stop" : 1632980478571,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b4b10aff89d9181",
+  "name" : "查看文章详情",
+  "time" : {
+    "start" : 1632980478619,
+    "stop" : 1632980478619,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "976f9455062a0818",
+  "name" : "test_user_login_Error[admin-654321-用户名或密码不正确]",
+  "time" : {
+    "start" : 1632980478406,
+    "stop" : 1632980478406,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5c1dfffdaca0b2c2",
+  "name" : "test_user_login_Error[admin--密码不能为空]",
+  "time" : {
+    "start" : 1632980478364,
+    "stop" : 1632980478364,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e7358366bf3f8e8",
+  "name" : "查看博客详情",
+  "time" : {
+    "start" : 1632980478668,
+    "stop" : 1632980478668,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "78031748c0386b90",
+  "name" : "test_user_login_Error[test-123456-用户名不正确。]",
+  "time" : {
+    "start" : 1632980478315,
+    "stop" : 1632980478315,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17bd4ee30a9ffa4e",
+  "name" : "test_user_login_Error[-654321-账号不能为空]",
+  "time" : {
+    "start" : 1632980175924,
+    "stop" : 1632980175924,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "df75810564fc2ab3",
+  "name" : "后台管理平台登录失败",
+  "time" : {
+    "start" : 1632980478471,
+    "stop" : 1632980478471,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
