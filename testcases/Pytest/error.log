@@ -784,3 +784,16 @@ Traceback (most recent call last):
 selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
   (Session info: chrome=93.0.4577.63)
 
+2021-10-25 15:35:23,677 - ERROR - test_Jpress.py[:67] - 报错信息:无法登录，找不到登录按钮
+Traceback (most recent call last):
+  File "D:\Code\Selenium\SE_project\testcases\Pytest\test_Jpress.py", line 63, in test_failcase
+    self.driver.find_element(By.CLASS_NAME, "btn错误的登录按钮元素").click()
+  File "D:\Code\Selenium\SE_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Code\Selenium\SE_project\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Code\Selenium\SE_project\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".btn错误的登录按钮元素"}
+  (Session info: chrome=93.0.4577.63)
+
