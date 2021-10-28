@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -13,13 +12,15 @@ class TestUser(object):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 
+    def teardown_class(self):
+        self.driver.quit()
+
     @pytest.mark.parametrize("username,pwd,expected",login)
     def test_user_login(self,username,pwd,expected):
-        self.driver.get("http://192.166.66.22:8080/user/login")
 
         # 把用例层面实例的driver传到loginPage中
         self.login = loginPage(self.driver)
-
+        # 输入账号密码并登录
         self.login.login(username,pwd)
 
         if username == "admin" and pwd == "123456":
